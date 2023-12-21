@@ -26,7 +26,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 BACKUPDIR=/backup/influxdb
 
 # How many Days should a backup be available?
-DAYS=2
+DAYS=7
 
 # Timestamp definition for the backupfiles (example: $(date +"%Y%m%d%H%M") = 20200124-2034)
 TIMESTAMP=$(date +"%Y%m%d%H%M")
